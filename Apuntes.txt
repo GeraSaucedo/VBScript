@@ -1,0 +1,87 @@
+VBScript versiones cortas de otros lenguajes 
+- lenguaje interpretado 
+- soportado solamente en internet explorer
+- ambientes donde se puede correr VBScript: IIS, WSH, IE(6 en adelante)
+
+VARIABLES Y CONSTANTES-------------------------------------------------------------
+Son utilizadas para mantener un valor o expression
+- pueden ser utilizadas para mantener una expresion
+- pueden ser usadas sin declararse
+- DEBEN INICIAR CON LETRA
+- NO DEBEN PASAR 255 CARACTERES
+- NO PUEDEN TENER PUNTO
+- DEBEN SER UNICAS
+- SE UTILIZA LA PALABRA RESERVADA DIM
+Ej;
+	Dim salario
+	Dim nombre
+	Dim edad
+
+	salario = 500
+	nombre = "Jose"
+	edad = 25
+
+NOTA: No se pueden inicializar en la declaracion, primero se debe de 
+	declarar y luego asignarles un valor
+
+CONSTANTES-------------------------------------------------------------------------
+- su valor no puede cambiar, es decir, es constante en todo el script
+- se declara con la palabra Const
+Ej:
+	Const lunes = 1
+	Const Martes = 2
+
+OPTION EXPLICIT--------------------------------------------------------------------
+- Fuerza a la declaracion de variable en un script
+- si se intenta utilizar una variable que no esta declarada es un error
+
+OPERADORES-------------------------------------------------------------------------
+- aritmeticos 	(+ - * / % ^ &)
+- Comparision 	(== <> < > <= >=)
+- logical 	(AND OR NOT XOR)
+- Concatenation (+ &) 		Nota: si la variable es numerica se utiliza el "&", 
+			    	si se utiliza "+" se realizara la suma de 
+				variables en vez de conatenarlas
+
+
+----------------------------------------------------------------------------------
+CONDICIONALES:
+IF loggedIn == true Then
+	document.write("Welcome")
+ELSE
+	document.write("")
+END IF
+
+ELSEIF Condition THEN
+SELECT CASE
+
+CICLOS-------------------------------------------------
+DO WHILE
+DO UNTIL
+WHILE
+FOR EACH
+
+EXIT DO - Si se requiere salir de un ciclo es parecido a un break de java si se cumple la condicion
+
+ARREGLOS------------------------------------------------------------------------
+Dim arr1() - sin tama;o
+Dim arr2(5) - arreglo de longitud 5
+Dim arr3 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+<html>
+	<head>	
+		<meta http-equiv="x-ua-compatible" content="IE=10">
+		<title>Abrir panel de control</title>
+	</head>
+	
+	<body>
+		<script type="text/vbscript">
+		
+		function pcontrol()
+		
+		Set objShell = CreateObject("Wscript.Shell")
+		objShell.Run "explorer.exe Shell:ControlPanelFolder"
+		
+		End Function	
+		
+		</script>
+		<input type="button" value="Panel de control" onclick="pcontrol()">
+	</body>
+
+</html>
