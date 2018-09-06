@@ -68,6 +68,22 @@ Dim arr1() - sin tama;o
 Dim arr2(5) - arreglo de longitud 5
 Dim arr3 
 
+PROCEDURES------------------------------------------------------------------------------
+SUB--------------------------------
+Sub outputMessage()
+	document.write("welcome")
+End sub
+
+call outputMessage
+
+FUNCTIONS
+
+STRING MANUPULATION FUNCTIONS--------------------------
+
+
+
+
+
 
 
 
